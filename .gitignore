@@ -35,4 +35,6 @@ terraform.rc
 
 *.pem
 
+**/.vscode/*
+
 state_list.txt
