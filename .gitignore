@@ -33,4 +33,6 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+*.pem
+
 state_list.txt
