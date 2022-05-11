@@ -160,9 +160,10 @@ resource "aws_instance" "web_server" {
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.public_subnets["public_subnet_1"].id
   tags = {
-    Name  = local.server_name
-    Owner = local.team
-    App   = local.application
+    Name   = local.server_name
+    Owner  = local.team
+    App    = local.application
+    MyName = "Doron"
   }
 }
 
