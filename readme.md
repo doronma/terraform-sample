@@ -23,9 +23,3 @@ terrafrom workspace list
 terrafrom console
 
 terrafrom init migrate-state
-
-
-
-
-ssh -i MyAWSKey.pem ubuntu@52.202.207.57
- 
