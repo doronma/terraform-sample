@@ -23,6 +23,13 @@ terraform {
     }
 
   }
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "doron-org"
+    workspaces {
+      name = "terraform-sample"
+    }
+  }
 }
 
 

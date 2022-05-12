@@ -8,6 +8,7 @@ terraform init -upgrade
 terraform validate  
 terraform providers
 terraform plan  
+terrafrom plan -refresh-only
 terraform apply  
 terraform show terraform show  
 terraform state list  
@@ -22,4 +23,4 @@ terrafrom workspace list
 
 terrafrom console
 
-terrafrom init migrate-state
+terraform init -migrate-state
